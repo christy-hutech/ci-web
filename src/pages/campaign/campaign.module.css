@@ -1,0 +1,257 @@
+.gallery_head {
+  margin-top: 8.8rem;
+  height: 100%;
+  width: 100%;
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 136%;
+  color: #1F1A17;
+  margin-left: 3%;
+  position: relative;
+}
+
+.line_gallery {
+  width: 7%;
+  opacity: 1;
+  border-top: 3px solid;
+  color: #ff1515;
+  margin-left: 3.4%;
+  margin-top: 1%;
+}
+
+.campaign_head {
+  margin-top: 8.8rem;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 136%;
+  color: #1F1A17;
+  margin-left: 9%;
+  position: relative;
+}
+.body_gallery {
+  width: 92%;
+  height: auto;
+  margin: auto;
+  /* margin-bottom: 3rem;
+  margin-top: 11rem; */
+}
+
+.sort_gallery {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 3rem;
+}
+
+.contain_gallery {
+  width: 25.29%;
+  height: 4rem;
+  display: flex;
+  border: 1px solid;
+  border-radius: 11rem;
+}
+
+.antbutton_gallery {
+  font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 9px;
+    text-align: center;
+    color: #1F1A17;
+    position: relative;
+    border: 1px;
+    flex-shrink: inherit;
+    padding: 1.66rem 1.253rem 1.39rem 1.25rem;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 21rem;
+}
+
+.gallery_tag {
+  /* position: absolute;
+  width: 18.9%; */
+  text-align: left;
+}
+
+/* .antbutton-gallery:hover {
+  background-color: #0B0A0A;
+  max-width: 100%;
+  border-radius: 3rem;
+  z-index: -1;
+  color: #ffffff;
+} */
+
+.antbutton_gallery:hover {
+  color: rgb(255, 255, 255);
+    position: relative;
+    border: 1px;
+    /* padding: 7.2% 3.7% 5.4% 6.4%; */
+    /* padding: 6.4% 4.6% 6.4% 4.4%; */
+    background-color: #000000;
+    cursor: pointer;
+  /* padding: 7.2% 3.7% 5.4% 6.4%; */
+  /* padding: 6.4% 3.6% 6.4% 6.4%; */
+ 
+}
+
+.first_gallery {
+  font-family: 'DM Sans';
+  font-style: normal;
+  margin-top: 2rem;
+  overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+  color: #1F1A17;
+  width: 100%;
+}
+
+@media (max-width:860px) {
+  /* h3.first-gallery {
+      margin-left: 7.3rem;
+  } */
+}
+
+@media (max-width: 1024px) {
+  /* h3.first-gallery {
+      margin-left: 8.3rem;
+  } */
+}
+
+@media (max-width: 1224px) {
+  /* h3.first-gallery {
+      margin-left: 10.3rem;
+  } */
+}
+
+@media (max-width: 1824px) {
+  /* h3.first-gallery {
+      margin-left: 11rem;
+  } */
+}
+
+.second_gallery {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  text-align: left;
+  font-size: 13px;
+  color: #0B0A0A;
+  opacity: 0.6;
+}
+.card_container{
+  width: 100%;
+  grid-row-gap: 4rem;
+  gap: 3rem;
+  margin-top: 5rem;
+  margin-left: 4rem;
+
+}
+
+
+.bar_gallery {
+  width: 94%;
+  opacity: 0.6;
+  position: relative;
+}
+
+.post_new {
+  width: 100%;
+  margin-left: 4rem;
+  margin-top: 0.4rem;
+  padding: 1rem 0.8rem;
+}
+
+.gallery_img {
+  width: 100%;
+}
+
+.box_gallery {
+  display: flex;
+  flex-direction: column;
+  height: 12rem;
+}
+
+.main_card {
+  display: flex;
+  flex-direction: column;
+}
+.ant-select {
+  box-sizing: border-box;
+  margin-left: 4rem;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum', "tnum";
+  position: relative;
+  display: inline-block;
+  width: 99%;
+  text-align: left;
+  cursor: pointer;
+}
+.row_main{
+  display: flex;
+  gap: 2rem;
+}
+.para_campaign {
+  width: 43%;
+  margin-left: 3.4%;
+  height: 63px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1F1A17;
+  opacity: 0.6;
+  margin-bottom: 1%;
+}
+@media (max-width:860px) {
+  .para_campaign {
+    width: 70%;
+    height: auto;
+  }
+}
+.gallery_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 4rem;
+  margin-top: 3rem;
+}
+.section_row {
+  border: 1px solid black;
+  opacity: 0.6;
+  padding: 0.3rem 0.5rem;
+}
+.section_rowone {
+  border: 1px solid black;
+  opacity: 0.6;
+  padding: 0.3rem 0.44rem;
+}
+.head_sort {
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: 0.7px;
+text-transform: uppercase;
+color: #1F1A17;
+}
+.main_sort{
+  width: 28%;
+}

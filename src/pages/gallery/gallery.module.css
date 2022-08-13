@@ -1,0 +1,224 @@
+.gallery_head {
+    margin-top: 8.8rem;
+    height: 100%;
+    width: 100%;
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 136%;
+    color: #1F1A17;
+    margin-left: 2%;
+    position: relative;
+}
+
+.line_gallery {
+    width: 7%;
+    opacity: 1;
+    border-top: 3px solid;
+    color: #ff1515;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.campaign_head {
+    margin-top: 8.8rem;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 136%;
+    color: #1F1A17;
+    margin-left: 9%;
+    position: relative;
+}
+.body_gallery {
+    width: 90.5%;
+    height: 100%;
+    margin: auto;
+    /* margin-bottom: 3rem;
+    margin-top: 11rem; */
+}
+
+.sort_gallery {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+  }
+
+.contain_gallery {
+    width: 22.5%;
+    height: 4.1rem;
+    display: flex;
+    border: 1px solid;
+    border-radius: 11rem;
+  }
+  @media screen and (max-width: 1200px) {
+    .contain_gallery {
+        width: 28.7%;
+        height: 4.1rem;
+    }
+  }
+  @media screen and (max-width: 1150px) {
+    .contain_gallery {
+        width: 29%;
+        height: 4.1rem;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .contain_gallery {
+        width: auto;
+        height: 4.1rem;
+    }
+  }
+  @media screen and (max-width: 950px) {
+    .contain_gallery {
+        width: auto;
+        height: 4.1rem;
+    }
+  }
+  @media screen and (max-width: 850px) {
+    .contain_gallery {
+        width: auto;
+        height: 4.1rem;
+    }
+  }
+
+
+  .antbutton_gallery {
+    font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 9px;
+      text-align: center;
+      color: #1F1A17;
+      position: relative;
+      border: 1px;
+      flex-shrink: inherit;
+      padding: 1.66rem 1.253rem 1.39rem 1.25rem;
+      background-color: #ffffff;
+      cursor: pointer;
+      border-radius: 21rem;
+  }
+
+.gallery_tag {
+    /* position: absolute;
+  width: 18.9%; */
+  text-align: left;
+}
+.antbutton_gallery:hover {
+    color: rgb(255, 255, 255);
+      position: relative;
+      border: 1px;
+      /* padding: 7.2% 3.7% 5.4% 6.4%; */
+      /* padding: 6.4% 4.6% 6.4% 4.4%; */
+      background-color: #000000;
+      cursor: pointer;
+    /* padding: 7.2% 3.7% 5.4% 6.4%; */
+    /* padding: 6.4% 3.6% 6.4% 6.4%; */
+   
+  }
+
+.first_gallery {
+    font-family: 'DM Sans';
+    font-style: normal;
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1F1A17;
+    opacity: 0.6;
+    /* width: 103%; */
+}
+
+@media (max-width:860px) {
+    /* h3.first-gallery {
+        margin-left: 7.3rem;
+    } */
+}
+
+@media (max-width: 1024px) {
+    /* h3.first-gallery {
+        margin-left: 8.3rem;
+    } */
+}
+
+@media (max-width: 1224px) {
+    /* h3.first-gallery {
+        margin-left: 10.3rem;
+    } */
+}
+
+@media (max-width: 1824px) {
+    /* h3.first-gallery {
+        margin-left: 11rem;
+    } */
+}
+
+.second_gallery {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 1rem;
+    text-align: end;
+    font-size: 14px;
+    color: #0B0A0A;
+    opacity: 0.6;
+    align-items: flex-end;
+}
+.card_container{
+    width: 100%;
+    row-gap: 4rem;
+    margin-top: 5rem;
+}
+
+
+.bar_gallery {
+    width: 22.6%;
+    opacity: 0.6;
+    position: relative;
+}
+
+.post_new {
+    width: 100%;
+    margin-left: 4rem;
+    margin-top: 0.4rem;
+    padding: 1rem 0.8rem;
+}
+
+.gallery_img {
+    width: 100%;
+}
+
+.box_gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 9rem;
+    background-color: rgba(9, 7, 7, 0.087);
+}
+
+.main_card {
+    display: flex;
+    flex-direction: column;
+}
+.ant-select {
+    box-sizing: border-box;
+    margin-left: 4rem;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    position: relative;
+    display: inline-block;
+    width: 99%;
+    text-align: left;
+    cursor: pointer;
+}

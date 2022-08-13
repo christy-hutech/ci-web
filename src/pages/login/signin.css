@@ -1,0 +1,181 @@
+.signin-wrapper {
+    box-sizing: border-box;
+    position: fixed;
+    height:auto;
+    right: 6rem;
+    top: 0.9rem!important;
+    width: 34%!important;
+}
+body .signin-wrapper input {
+    border: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.signin-wrapper h3 {
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 100%;
+    color: #1F1A17;
+}
+.signin-wrapper .input-field {
+    width: 410px;
+    height: 3rem;
+    background: #FFFFFF;
+    text-align: left;
+    border-bottom: 3px solid #ebeaf1;
+    outline: none;
+    color:black ;
+    font-size: 14px;
+}
+.submit-1 {
+    width: 410px;
+    height: 4rem;
+    background: #DA251C;
+    border-radius: 32px;
+}
+.section-or {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 0px;
+    text-align: center;
+    color: #1F1A17;
+    opacity: 0.6;
+    margin-top: 25px;
+}
+.submit-2 {
+    width: 410px;
+    /* height: 48px; */
+    height: 4rem;
+    background: #1A73E8;
+    border-radius: 32px;
+}
+.submit-3 {
+    width: 410px;
+    /* height: 48px; */
+    height: 4rem;
+    background: #45619D;
+    border-radius: 32px;
+}
+.submit-4 {
+    width: 410px;
+    /* height: 48px; */
+    height: 4rem;
+    background: #02B8F1;
+    border-radius: 32px;
+}
+.submit-5 {
+    width: 410px;
+    /* height: 48px; */
+    height: 4rem;
+    background: #FFEBEB;
+    border-radius: 32px;
+    color: #332C2C!important;
+}
+.popup-form {
+    padding: 0px 24px 0px 32px!important;
+}
+.terms {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #1F1A17;
+    opacity: 0.6;
+    padding-left: 0px;
+}
+.terms.top {
+    height: 22px;
+}
+.popup-back {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+    z-index: 10000;
+}
+.popup-form {
+    justify-content: center;
+    width: 100%;
+    max-width: 95%;
+    margin: auto;
+        padding: 0px 22px 0px 22px!important;
+    height: auto;
+}
+.popup-form,.share-btn {
+    position: relative;
+}
+.popup-form .share-btn input{
+    width: 100%;
+}
+.popup-form .share-btn input[type="submit"] {
+    cursor: pointer;
+}
+.share-btn-logo {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    cursor: pointer;
+}
+.sign-up .terms .sbtitle {
+    float: left;
+}
+.sign-up .terms .login-btn {
+    float:right;
+    font-size: 12px;
+}
+.signin-wrapper .login-btn {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 18px;
+    color: #DA251C;
+    cursor: pointer;
+    outline: none;
+}
+
+/* ANTD */
+.signin-wrapper .ant-modal-close-x .anticon svg{
+    display: inline-block;
+    border-radius: 50%;
+    padding: 11px;
+    background-color: #E9E8E8;
+    width: 38px;
+    height: 38px;
+}
+.ant-modal-close {
+    top: 8px;
+}
+.signin .share-btn {
+    padding-top: 6px;
+}
+.signin .share-btn-logo {
+    position: absolute;
+    top: 12px;
+    left: 7px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1224px) {
+    .signin-wrapper {
+        right: 0rem;
+        left: 0rem;
+        top: 13rem!important;
+        width: 100%!important;
+    }
+}

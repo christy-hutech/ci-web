@@ -1,0 +1,258 @@
+.members-wrapper h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 146%;
+    color: #1F1A17;
+}
+.modal-wrapper b{
+    color: red;
+}
+.members-wrapper .search-icon {
+    position: absolute;
+    top: 25px;
+    left: 22px;
+}
+.members-wrapper .table-head {
+    width: 99%;
+}
+.members-wrapper .search-wrapper {
+    position: relative;
+    width: 100%;
+    height: 61px;
+    background: #F3F3F3;
+    border-radius: 4px;
+    padding: 12px;
+    margin-top: 28px;
+}
+
+.search-wrapper .search-options {
+    box-sizing: border-box;
+    width: 62%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 2px;
+    padding: 0px 0px 0px 45px;
+    outline: none;
+}
+
+.search-wrapper select {
+    box-sizing: border-box;
+    width: 23%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 2px;
+    padding: 5px;
+}
+.search-wrapper .button {
+    width: 101px;
+    height: 30px;
+    background: #1F1A17;
+    border-radius: 98px;
+    color: white;
+    cursor: pointer;
+}
+
+.search-wrapper  input, .search-wrapper  select,.search-wrapper button {
+    margin-right: 13px;
+}
+.members-wrapper .add-new {
+    width: 129px;
+    height: 30px;
+    left: 1166px;
+    top: 149px;
+    background: #1F1A17;
+    border-radius: 98px;
+    color: white;
+    float: right;
+    cursor: pointer;
+}
+.members-wrapper {
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    box-shadow: 0px 4px 4px rgb(153 153 153 / 25%);
+    border-radius: 5px;
+    padding: 16px;
+}
+
+.members-wrapper .action {
+    margin-right: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+.members-wrapper .name-wrapper{
+    display:flex;
+}
+.members-wrapper .name,.members-wrapper .email {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    color: #0C0C0C;
+    text-align: left;
+}
+.members-wrapper .email {
+    font-weight: 400;
+    font-size: 13px;
+}
+.members-wrapper .name {
+    font-weight: 800;
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 0;
+    text-align: left;
+}
+.members-wrapper .ant-table-cell.ant-table-selection-column {
+    display: none;
+}
+.members-wrapper  .ant-table-cell::before {
+    content: none!important;
+}
+.members-wrapper .ant-table-thead > tr > th {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.members-wrapper .status-wrapper input{
+    width: 50%;
+    height: 26px;
+    background: #75CA67;
+    border-radius: 2px;
+    border: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 146%;
+    color: #FFFFFF;
+    padding: 3px;
+    cursor: pointer;
+}
+.members-wrapper .ant-table-tbody > tr > td {
+    padding: 0;
+    text-align: center;
+}
+.members-wrapper .img-wrapper {
+    margin-left: 17px;
+}
+
+/* model css */
+.members-wrapper .ant-modal-title {
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 146%;
+    color: #1F1A17;
+}
+.ant-modal-close-x .anticon svg {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 11px;
+    background-color: #E9E8E8;
+    width: 38px;
+    height: 38px;
+}
+.modal-wrapper .ant-modal-body {
+    padding: 0px 24px 24px 32px!important;
+}
+.modal-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.modal-wrapper div {
+    width: 33%;
+    margin-top: 26px;
+}
+.modal-element {
+    width: 90%;
+    height: 40px;
+    background: #FFFFFF;
+    outline: none;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.modal-wrapper-checkox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 72%;
+}
+.modal-element-checkbox {
+    width: 20px;
+    height: 20px;
+    background: #1F1A17;
+    border-radius: 2px;
+    margin-top: 26px;
+    cursor: pointer;
+}
+.modal-wrapper-checkox div {
+    width:33%
+}
+.modal-wrapper-checkox input[type=checkbox] {
+    margin-right: 6px;
+    accent-color: #1F1A17;
+}
+.popup-wrapper .ant-btn-primary {
+    width: 120px!important;
+    height: 40px!important;
+    background: #1F1A17!important;
+    border-radius: 98px!important;
+    border: none!important;
+}
+.popup-wrapper .ant-btn-default {
+    width: 120px!important;
+    height: 40px!important;
+    background: #FFFFFF!important;
+    border: 1px solid #1F1A17!important;
+    border-radius: 98px!important;
+}
+.popup-wrapper .ant-modal-footer {
+    padding: 22px!important;
+}
+.upload-wrapper {
+    display: inline-block;
+    border: 2px dashed #DFDFDF;;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 312%;
+    text-align: center;
+    color: #535050;
+    cursor: pointer;
+}
+.file-upload {
+    position: relative;
+}
+.modal-wrapper input[type=file] {
+    position: absolute;
+    right: 39px;
+    width: 88%;
+    height: 34px;
+    top: 39px;
+    opacity: 0;
+    cursor: pointer;
+}
+.modal-wrapper .upload-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 136%;
+    text-align: center;
+    color: #A0A0A0;
+}
+.member-list-wrapper {
+    background: white;
+    padding: 40px 18px 0px 18px;
+}
+
+

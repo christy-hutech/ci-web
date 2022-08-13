@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  font-size: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.pagination-list-table .ant-pagination-item {
+  border: none;
+}
+
+.pagination-list-table .ant-pagination-item-active a,
+.pagination-list-table .ant-pagination-item a:hover,
+.pagination-list-table button.ant-pagination-item-link:hover {
+  color: #DA251C;
+}
+.pagination-list-table button.ant-pagination-item-link,
+.pagination-list-table button.ant-pagination-item-link:hover {
+    border: 1px solid rgba(43, 42, 41, 0.1);
+    border-radius: 98px;
+    text-align: center;
+}
+
+ .ant-form-item-label > label.ant-form-item-no-colon::after{
+  margin: -8px 8px 0 2px;
+  display: inline-block;
+  margin-right: 4px;
+  color: #ff4d4f;
+  font-size: 14px;
+  font-family: SimSun, sans-serif;
+  line-height: 1;
+  content: '*'!important;
+}
+.ant-form-item-label > label.ant-form-item-no-colon::before {
+  content: ' '!important;
+}
+.router-wrapper {
+  max-width: 100%!important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap');
+
+/* DM Sans */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=IBM+Plex+Serif:wght@500&display=swap');

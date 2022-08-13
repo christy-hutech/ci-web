@@ -1,0 +1,115 @@
+.creat_post_container {
+  display: flex;
+  width: 94%;
+  margin: auto;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  padding-right: 2%;
+}
+.creat_post_top_row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+.creat_post_top_row_heading {
+  font-family: IBM Plex Serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 65%;
+  padding-left: 1%;
+}
+.creat_post_top_row_actions {
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+}
+.create_post_buttons {
+  padding-inline: 20px;
+  background-color: white !important;
+  border-radius: 20px;
+  margin-right: 10px;
+  color: black !important;
+  border: 1px solid black !important;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 500;
+  /* line-height: 18px; */
+  letter-spacing: 0px;
+  text-align: center;
+}
+.create_post_buttons_submit{
+  padding-inline: 20px;
+  background-color: black !important;
+  border-radius: 20px;
+  margin-right: 10px;
+  color: white !important;
+  border: 1px solid black !important;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 500;
+  /* line-height: 18px; */
+  letter-spacing: 0px;
+  text-align: center;
+}
+.selected_button {
+  background-color: black;
+  color: white;
+  padding-inline: 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+.create_post_details {
+  margin-top: 2%;
+  height: fit-content;
+}
+.create_post_left_side {
+  height: 100%;
+  box-shadow: 0px 6px 6px rgba(153, 153, 153, 0.25);
+  padding: 2%;
+}
+.create_post_right_side {
+  height: 100%;
+  box-shadow: 0px 6px 6px rgba(153, 153, 153, 0.25);
+  padding: 2%;
+}
+.create_post_left_side > div {
+  margin-top: 2%;
+}
+.create_post_right_side > div {
+  margin-top: 2%;
+}
+.create_post_left_side_lebel {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-bottom: 1%;
+}
+.create_post_right_side_lebel {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-bottom: 1%;
+  padding-top: 2%;
+}
+@media only screen and (max-width: 600px) {
+  .creat_post_top_row_heading {
+    width: 100%;
+  }
+  .creat_post_top_row_actions {
+    width: 100%;
+    margin-left: 10px;
+  }
+}

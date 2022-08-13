@@ -1,0 +1,108 @@
+.account-bg {
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    box-shadow: 0px 4px 4px rgb(153 153 153 / 25%);
+    border-radius: 5px;
+    padding: 31px;
+}
+.account-bg h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 146%;
+    color: #1F1A17;
+}
+.content-wrapper-1,
+.content-wrapper-2 {
+    display: flex;
+    width: 100%;
+}
+.content-wrapper-2,.change-pass-section {
+    border-bottom: 1px solid #E9E8E8;
+    margin-bottom: 22px;
+}
+.change-pass-section h1 {
+    margin-bottom: 22px;
+}
+.title-wrapper {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #E9E8E8;
+}
+.content-wrapper-1 .upload-pic a, .content-wrapper-1 .remmove-pi a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #DA251C;
+}
+.content-wrapper-1 .ant-anchor-ink::before{ 
+    content: none!important;
+}
+.form-field {
+    width: 45%;
+    margin-bottom: 55px;
+}
+.remmove-pi a {  
+    opacity: 0.6;
+}
+.form-field .ant-row,.form-field .ant-row {
+    display: block!important;
+}
+.content-wrapper-1 .ant-form-item-control-input-content, 
+.content-wrapper-2 .ant-form-item-control-input-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.content-wrapper-1  .ant-input,
+.content-wrapper-2  .ant-input {
+    background: #FFFFFF;
+    border: 1px solid #E9E8E8;
+    border-radius: 5px;
+    outline: none;
+    border-radius: 5px;
+}
+.content-wrapper-1  .ant-input {
+    height: 40px;
+}
+.content-wrapper-2  .ant-input {
+    height: 33px;
+    border-radius: 5px;
+}
+.content-wrapper-1  .link-wrapper {
+    max-height: 100vh;
+    padding: 19px 21px 0px 0px;
+    text-align: center;
+}
+.content-wrapper-2 .content-colm-fist {
+    width: 25%!important;
+}
+.content-wrapper-2 .content-colm-secound {
+    width: 81%;
+}
+.accout-sub-btn-group button {
+    float: right;
+    margin-left: 6px;
+}
+.acc-ci-btn-cancel {
+    width: 120px;
+    height: 40px;
+    background: #FFFFFF!important;
+    border: 1px solid #1F1A17!important;
+    border-radius: 98px!important;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #727271;
+}
+.acc-ci-btn-save {
+    width: 120px!important;
+    height: 40px!important;
+    background: #1F1A17!important;
+    border-radius: 98px!important;
+    border: none!important;
+}
+

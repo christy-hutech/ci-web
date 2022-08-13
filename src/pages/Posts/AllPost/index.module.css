@@ -1,0 +1,117 @@
+.all_post_main_container{
+  padding: 1% 0;
+  background-color: #f0f2f5;
+}
+.all_post_container {
+  width: 70%;
+  margin: auto;
+  border-radius: 5px;
+  background-color: white;
+}
+.table_row_light {
+  background-color: #ffffff;
+}
+.table_row_dark {
+  background-color: #fbfbfb;
+}
+.all_post_table {
+  margin-top: 2%;
+  padding: 3%;
+  box-shadow: 0px 6px 6px rgba(153, 153, 153, 0.25);
+}
+
+.all_post_top_row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 1%;
+}
+.all_post_top_row_heading {
+  font-family: IBM Plex Serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 30%;
+  padding-left: 1%;
+}
+.all_post_top_row_actions {
+  width: 70%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.all_post_buttons {
+  padding-inline: 20px;
+  background-color: white;
+  border: 1px solid #1f1a17;
+  border-radius: 20px;
+  margin-right: 10px;
+  width: 30% !important;
+  height: 40px !important;
+}
+.search_post_all_post{
+  background-color: #1f1a17;
+  color: white;
+}
+
+.all_post_sort_by{
+  padding-inline: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px !important;
+  margin-right: 10px;
+  width: 30% !important;
+  height: 40px !important;
+}
+.all_post_table .ant-table-pagination.ant-pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all_post_table .ant-pagination-disabled .ant-pagination-item-link{
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.all_post_table .ant-pagination-item{
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .all_post_top_row_heading {
+    width: 100%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+  }
+  .all_post_top_row_actions {
+    width: 100%;
+  }
+  .all_post_main_container{
+    background-color: white;
+  }
+  .all_post_buttons{
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 785px) {
+  .all_post_top_row_actions {
+    width: 100%;
+  }
+  .all_post_top_row_heading {
+    width: 100%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+  }
+  .all_post_main_container{
+    background-color: white;
+  }
+  .all_post_buttons{
+    display: inline-block;
+  }
+}

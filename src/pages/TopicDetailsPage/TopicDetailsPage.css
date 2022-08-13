@@ -1,0 +1,310 @@
+.topic_details_page {
+    width: 100%;
+    margin-top: 8.8rem;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    /* padding-left: 8.7rem;
+    padding-right: 8.7rem; */
+    margin-bottom: 8%;
+  }
+  .topic_details_card {
+    background:  #1F1A17;
+    padding: 5% 2%;
+  }
+  .topic_details_card .ant-list-vertical .ant-list-item-meta-title {
+
+  font-family: 'IBM Plex Serif';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 136%;
+color: #FFFFFF;
+  }
+  .topic_details_card .ant-list-item-meta-title > a {
+    color: #FFFFFF;
+  }
+
+  .topic_details_content {
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+opacity: 0.6;
+  }
+  .ci_home_connect {
+    height: fit-content;
+    background-color: black;
+    /* margin-top: 2%; */
+    padding: 2%;
+    /* margin-left: 4%;
+    margin-right: 4%; */
+    margin: 2% 4% 3% 4%;
+  }
+  .ci_article_section {
+    margin: 0% 4% 3% 4%;
+  }
+  .topic_details_images {
+    margin: 4% 4% 3% 4%;
+  }
+  .topic_details_card_image {
+    width: 384px;
+height: 236px;
+  }
+  .ci_home_campaigns_card{
+    width: 90%;
+    padding: 1%;
+    height: max-content;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .carousel {
+    cursor: grab;
+    overflow: hidden;
+  }
+  .inner_carousel {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2%;
+  }
+  .topic_details_card .ant-list-item-meta-description {
+    color: red;
+  }
+  .topic_details_authors {
+    margin-top: 5%;
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #1F1A17;
+  }
+  .topic_details_subparagraph {
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #1F1A17;
+opacity: 0.6;
+  }
+  .topic_details_sub_card {
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+  }
+  .topic_details_article_images_section {
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+  }
+  .topic_details_integer{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+  }
+  .topic_details_sub_article {
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+opacity: 0.6;
+  }
+  .topic_details_file{
+    margin-left: 14%;
+  }
+  .topic_details_article_images_section1 {
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    margin-left: 15%;
+  }
+  .topic_details_page_images_bottom_border {
+    background-color: #da251c;
+    height: 3px;
+    margin-bottom: 1%;
+    width: 7%;
+}
+.topic_details_page_article_bottom_border {
+  background-color: #da251c;
+  height: 3px;
+  margin-bottom: 1%;
+  width: 10%;
+}
+.ci_home_connect_ask_querry_heading {
+  color: #FFFFFF;
+  font-family: 'IBM Plex Serif';
+  font-size: 40px;
+  font-weight: 500;
+  text-align: left;
+  font-style: normal;
+}
+.ci_home_connect_ask_querry_heading_bottom_border {
+  height: 3px;
+  width: 5%;
+  background-color: red;
+  margin-bottom: 1%;
+}
+.ci_home_connect_ask_querry_subheading {
+  text-align: left;
+  padding-top: 3%;
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+opacity: 0.6;
+}
+.ci_home_connect_ask_us_btn_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2%;
+}
+.ci_home_connect_ask_us_btn {
+  padding-inline: 10px;
+  border-radius: 20px;
+  color: #da251c;
+  cursor: pointer;
+}
+.ci_heading {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'IBM Plex Serif';
+  margin-top: 20px;
+  color: #1F1A17;
+}
+.ci_form_subheading {
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #1F1A17;
+opacity: 0.6;
+}
+.list_title .ant-list-vertical .ant-list-item-meta-title {
+  font-family: 'IBM Plex Serif';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #1F1A17;
+}
+.list_title .content_para {
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #1F1A17;
+opacity: 0.6;
+margin-bottom: 0px;
+}
+.list_title .ant-pagination {
+  text-align: left;
+  
+  margin-top: 5%;
+}
+.related_title .ant-list-split .ant-list-item {
+  border-bottom: none;
+}
+.list_title {
+  display: flex;
+  width: 100%;
+}
+.third_button {
+  margin-top: 15px;
+  margin-right: 2%;
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #1F1A17;
+opacity: 0.6;
+}
+.fourth_button {
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #1F1A17; 
+opacity: 0.6;
+}
+.related_topic {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1f1a17;
+}
+.ci_home_articles_right_content_tag_container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap:10px;
+  margin-top: 18px;
+}
+.ci_home_articles_right_content_tags {
+    background-color: #FFFFFF;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    border: 1.25px solid rgba(0, 0, 0, 0.1);
+  }
+  .ci_home_connect_ask_querry_right_card {
+    display: flex;
+    flex-direction: column;
+  }
+  .ci_subscribe {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'IBM Plex Serif';
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.ci_form_bottom {
+  height: 3px;
+  width: 10%;
+  background-color: #da251c;
+  margin: auto;
+}
+.subscribe_para {
+  font-family: 'DM Sans';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #1F1A17;
+  opacity: 0.6;
+  margin-top: 2%;
+}
+.email_input {
+  align-items: center;
+}
+.email_input .ant-input-affix-wrapper {
+  background-color: #F4F4F3;
+  border-radius: 50px;
+}
+.email_input .ant-input-affix-wrapper > input.ant-input {
+  background-color: #F4F4F3;
+  border-radius: 50px;
+}
+
+  
